@@ -1,0 +1,60 @@
+body {
+    font-family: 'Gill Sans';
+    margin: 0px;
+}
+
+main {
+    width: 400px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1 + div {
+    color: rgb(255, 208, 0);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 30px;
+    padding: 15px;
+}
+
+span:first-child {
+    color: green;
+    margin-right: 3px;
+}
+
+span + span {
+    color: gray;
+    text-decoration: line-through;
+    margin-right: 3px;
+}
+
+span:last-child {
+    color: red;
+    margin-right: 3px;
+    text-decoration: none;
+}
+
+button {
+    font-size: 25px;
+    padding: 5px;
+    margin: 3px;
+}
+
+button:first-child {
+    color: white;
+    background-color: rgb(39, 38, 38);
+    border-radius: 5px;
+}
